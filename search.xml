@@ -3,8 +3,8 @@
   <entry>
     <title>你好！世界</title>
     <url>/hello-world/</url>
-    <content><![CDATA[<pre><code>这是我的第一条博客！废了半天终于把博客的各种设置配置好了…现在用的是 [NexT主题](http://theme-next.iissnan.com/) 。打算接下来开始制作自己的主题喽~
-p.s.还顺手把自动生成的Hello World给汉化了一下↓</code></pre><h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建新的博文"><a href="#创建新的博文" class="headerlink" title="创建新的博文"></a>创建新的博文</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
+    <content><![CDATA[<p>这是我的第一条博客！废了半天终于把博客的各种设置配置好了…现在用的是 <a href="http://theme-next.iissnan.com/" target="_blank" rel="noopener">NexT主题</a> 打算接下来开始制作自己的主题喽~<br>p.s.还顺手把自动生成的Hello World给汉化了一下↓</p>
+<h2 id="快速开始"><a href="#快速开始" class="headerlink" title="快速开始"></a>快速开始</h2><h3 id="创建新的博文"><a href="#创建新的博文" class="headerlink" title="创建新的博文"></a>创建新的博文</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
 
 <p>了解更多: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">创建</a></p>
 <h3 id="运行服务器"><a href="#运行服务器" class="headerlink" title="运行服务器"></a>运行服务器</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
