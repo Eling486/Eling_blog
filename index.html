@@ -310,7 +310,7 @@
         
           <h1 class="post-title" itemprop="name headline">
                 
-                <a class="post-title-link" href="/%E5%85%B3%E4%BA%8E-a-%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/" itemprop="url">关于<a>标签的一些用法</a></h1>
+                <a class="post-title-link" href="/%E5%85%B3%E4%BA%8E-a-%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/" itemprop="url">关于a标签的一些用法</a></h1>
         
 
         <div class="post-meta">
@@ -340,7 +340,7 @@
 
           
           
-             <span id="/%E5%85%B3%E4%BA%8E-a-%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/" class="leancloud_visitors" data-flag-title="关于<a>标签的一些用法">
+             <span id="/%E5%85%B3%E4%BA%8E-a-%E6%A0%87%E7%AD%BE%E7%9A%84%E4%B8%80%E4%BA%9B%E7%94%A8%E6%B3%95/" class="leancloud_visitors" data-flag-title="关于a标签的一些用法">
                <span class="post-meta-divider">|</span>
                <span class="post-meta-item-icon">
                  <i class="fa fa-eye"></i>
@@ -374,20 +374,18 @@
         
           
             <p>最近我在学习前端方面的一些知识，碰到一些网上没什么大神提到的用法，来这里记录一下~</p>
-<p>##关于调用JS<br>关于这个问题<br>网上已经有很多教程了，但还是来记录一下，如果觉得太无聊可以直接跳到下一条</p>
-<p>###常用方法<br>1.</p>
+<h2 id="关于调用JS"><a href="#关于调用JS" class="headerlink" title="关于调用JS"></a>关于调用JS</h2><p>关于这个问题<br>网上已经有很多教程了，但还是来记录一下，如果觉得太无聊可以直接跳到下一条</p>
+<h3 id="常用方法"><a href="#常用方法" class="headerlink" title="常用方法"></a>常用方法</h3><p>1.</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"javascript:void(0);"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这应该是是最保险的方法，如果 <code>method()</code> 不存在也不会发生跳转<br>2.</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"javascript:;"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这条跟第1条类似，相当于执行了一条空的js代码<br>3.</p>
 <figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"#"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这条跟第2条比较类似，就不做过多赘述啦</p>
-<p>##关于href属性<br>这个属性除了常用的直接填写要跳转的链接外，还有一些有趣的用法：</p>
-<p>###拨打电话</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"tel:88888888"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h2 id="关于href属性"><a href="#关于href属性" class="headerlink" title="关于href属性"></a>关于href属性</h2><p>这个属性除了常用的直接填写要跳转的链接外，还有一些有趣的用法：</p>
+<h3 id="拨打电话"><a href="#拨打电话" class="headerlink" title="拨打电话"></a>拨打电话</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"tel:88888888"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这样的话，点击标签便可以给 <code>tel:</code> 后的号码拨打电话，这个主要在移动端使用的较多（毕竟PC端想要打电话也不方便2333）</p>
-<p>###发送邮件</p>
-<figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"mailto:test@test.com"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<h3 id="发送邮件"><a href="#发送邮件" class="headerlink" title="发送邮件"></a>发送邮件</h3><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"mailto:test@test.com"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这样的话，点击标签便可以自动调起自带的邮箱软件，给 <code>mailto:</code> 后的邮箱地址发送邮件了</p>
 
           
