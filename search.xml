@@ -18,6 +18,12 @@
 <h3 id="发送邮件"><a href="#发送邮件" class="headerlink" title="发送邮件"></a>发送邮件</h3><figure class="highlight html"><table><tr><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">a</span> <span class="attr">href</span>=<span class="string">"mailto:test@test.com"</span> ο<span class="attr">nclick</span>=<span class="string">"method()"</span>&gt;</span>调用<span class="tag">&lt;/<span class="name">a</span>&gt;</span></span><br></pre></td></tr></table></figure>
 <p>这样的话，点击标签便可以自动调起自带的邮箱软件，给 <code>mailto:</code> 后的邮箱地址发送邮件了</p>
 ]]></content>
+      <categories>
+        <category>前端</category>
+      </categories>
+      <tags>
+        <tag>前端</tag>
+      </tags>
   </entry>
   <entry>
     <title>你好！世界</title>
